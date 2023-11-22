@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "url": "https://via.placeholder.com/150",
+        "alt": "Image 1"
+    },
+    {
+        "id": 2,
+        "url": "https://via.placeholder.com/152",
+        "alt": "Image 2"
+    },
+    {
+        "id": 3,
+        "url": "https://via.placeholder.com/153",
+        "alt": "Image 3"
+    },
+    {
+        "id": 4,
+        "url": "http://localhost:5173/img/islasiniestra.jpg",
+        "alt": "image 4"
+    },
+    {
+        "id": 5,
+        "url": "/img/john.jpg",
+        "alt": "Image 4"
+    },
+    {
+        "id": 6,
+        "url": "./img/ja.jpg",
+        "alt": "Image 5"
+    },
+    {
+        "id": 7,
+        "url": "./img/isla siniestra.jpg",
+        "alt": "Image 6"
+    }
+]
