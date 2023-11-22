@@ -1,18 +1,37 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Perfil</title>
-  <link href="Cambiar_Perfil.css" rel="stylesheet">
+  <title>Editar perfil</title>
+  <link rel="stylesheet" href="perfil.css">
 </head>
 <body>
+  <form action="/save-profile" method="post" class="container-perfil-foto">
+    <h1>Editar perfil</h1>
+    <hr color="black" width="350px">
 
-  <div class="Contenedor_info_usuario">
-    <h2>Antonio José González Pareja</h2>
-    <img src="john.jpg" alt="Imagen del usuario">
-    <p>antoniojgpareja@gmail.com</p>
-    <p>Gestionar tu cuenta</p>
-    <button>Cambiar perfil</button>
-  </div>
+    <div class="profile-image">
+      <img src="./img/chica.png" alt="Foto de perfil" style="border-radius: 50%; width: 210px; height: 210px; border: 3px solid negro;">
+    </div>
+
+    <div class="change-photo">
+      <label for="image">Seleccionar archivo</label>
+      <input type="file" name="image" id="image" style="border-radius: 5px;">
+      <span class="file-name" style="font-size: 12px;">Sin archivos seleccionados</span>
+    </div>
+
+    <div class="field">
+      <label for="name">Nombre</label>
+      <input type="text" name="name" id="name" style="border-radius: 5px; font-family: sans-serif; font-size: 16px;">
+    </div>
+
+    <div class="field">
+      <label for="last-name">Apellido</label>
+      <input type="text" name="last-name" id="last-name" style="border-radius: 5px; font-family: sans-serif; font-size: 16px;">
+    </div>
+
+    <button type="submit" style="background-color: rgb(0, 255, 42); color: #000000; border-radius: 5px; padding: 10px; border: none; cursor: pointer;">Guardar cambios</button>
+  </form>
+
+  <script src="perfil.js"></script>
 </body>
 </html>
