@@ -1,45 +1,21 @@
-import { useState, useEffect } from 'react';
+import React from 'react';
 import './index.css';
+import imageData from './imagen.json';
 
 function App() {
-  const [images, setImages] = useState([]);
-
-  useEffect(() => {
-    const fetchImages = async () => {
-      try {
-        const response = await fetch('/imagen.json'); // Ruta relativa al JSON
-        if (response.ok) {
-          const data = await response.json();
-          setImages(data);
-        } else {
-          throw new Error('Error fetching images');
-        }
-      } catch (error) {
-        console.error('Error:', error);
-      }
-    };
-
-    fetchImages();
-  }, []);
-
   return (
     <div>
       <h1>Imágenes</h1>
       <div className="image-container">
-        {images.map((image) => (
-          <img key={image.id} src={processImageURL(image.url)} alt={image.alt} />
+        {imageData.map((image) => (
+          <div key={image.id}>
+            {/* Usar rutas relativas para cargar las imágenes */}
+            <img src={image.url} alt={image.alt} />
+          </div>
         ))}
       </div>
     </div>
   );
-}
-
-function processImageURL(url) {
-  // Si la URL comienza con "./" o "/" se asume que es relativa al directorio public
-  if (url.startsWith('./') || url.startsWith('/')) {
-    return `${process.env.PUBLIC_URL}${url}`;
-  }
-  return url;
 }
 
 export default App;

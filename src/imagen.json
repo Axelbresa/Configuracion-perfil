@@ -1,37 +1,127 @@
 [
-    {
-        "id": 1,
-        "url": "https://via.placeholder.com/150",
-        "alt": "Image 1"
-    },
-    {
-        "id": 2,
-        "url": "https://via.placeholder.com/152",
-        "alt": "Image 2"
-    },
-    {
-        "id": 3,
-        "url": "https://via.placeholder.com/153",
-        "alt": "Image 3"
-    },
-    {
-        "id": 4,
-        "url": "http://localhost:5173/img/islasiniestra.jpg",
-        "alt": "image 4"
-    },
-    {
-        "id": 5,
-        "url": "/img/john.jpg",
-        "alt": "Image 4"
-    },
-    {
-        "id": 6,
-        "url": "./img/ja.jpg",
-        "alt": "Image 5"
-    },
-    {
-        "id": 7,
-        "url": "./img/isla siniestra.jpg",
-        "alt": "Image 6"
-    }
+  {
+    "id": 1,
+    "url": "../src/img/usuario.png",
+    "alt": "Image 1"
+  },
+  {
+    "id": 2,
+    "url": "../src/img/usuario (1).png",
+    "alt": "Image 2"
+  },
+  {
+    "id": 3,
+    "url": "../src/img/usuario (3).png",
+    "alt": "Image 3"
+  },
+  {
+    "id": 4,
+    "url": "../src/img/usuario (4).png",
+    "alt": "Image 4"
+  },
+  {
+    "id": 5,
+    "url": "../src/img/usuario (5).png",
+    "alt": "Image 5"
+  },
+  {
+    "id": 6,
+    "url": "../src/img/usuario (2).png",
+    "alt": "Image 6"
+  },
+  {
+    "id": 7,
+    "url": "../src/img/ama-de-casa.png",
+    "alt": "Image 7"
+  },
+  {
+    "id": 8,
+    "url": "../src/img/empleado.png",
+    "alt": "Image 8"
+  },
+  {
+    "id": 9,
+    "url": "../src/img/empleado (1).png",
+    "alt": "Image 9"
+  },
+  {
+    "id": 10,
+    "url": "../src/img/hombre.png",
+    "alt": "Image 10"
+  },
+  {
+    "id": 11,
+    "url": "../src/img/hombre (1).png",
+    "alt": "Image 11"
+  },
+  {
+    "id": 12,
+    "url": "../src/img/hombre (2).png",
+    "alt": "Image 12"
+  },
+  {
+    "id": 13,
+    "url": "../src/img/padre.png",
+    "alt": "Image 13"
+  },
+  {
+    "id": 14,
+    "url": "../src/img/mujer.png",
+    "alt": "Image 14"
+  },
+  {
+    "id": 15,
+    "url": "../src/img/mujer (1).png",
+    "alt": "Image 15"
+  },
+  {
+    "id": 16,
+    "url": "../src/img/mujer (2).png",
+    "alt": "Image 16"
+  },
+  {
+    "id": 17,
+    "url": "../src/img/mujer (3).png",
+    "alt": "Image 17"
+  },
+  {
+    "id": 18,
+    "url": "../src/img/mujer (4).png",
+    "alt": "Image 18"
+  },
+  {
+    "id": 19,
+    "url": "../src/img/mujer (5).png",
+    "alt": "Image 19"
+  },
+  {
+    "id": 20,
+    "url": "../src/img/mujer (6).png",
+    "alt": "Image 20"
+  },
+  {
+    "id": 21,
+    "url": "../src/img/nina.png",
+    "alt": "Image 21"
+  },
+  {
+    "id": 22,
+    "url": "../src/img/nino.png",
+    "alt": "Image 22"
+  },
+  {
+    "id": 23,
+    "url": "../src/img/nino (1).png",
+    "alt": "Image 23"
+  },
+  {
+    "id": 24,
+    "url": "../src/img/perfil.png",
+    "alt": "Image 24"
+  },
+  {
+    "id": 25,
+    "url": "../src/img/privacidad.png",
+    "alt": "Image 25"
+  }
 ]
