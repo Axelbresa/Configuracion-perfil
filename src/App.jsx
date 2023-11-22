@@ -1,19 +1,11 @@
 import React from 'react';
-import './index.css';
-import imageData from './imagen.json';
+import Configuracion_Perfill from './configuracion_Perfill';
+import "./Cambiar_Perfil.css"
 
 function App() {
   return (
-    <div>
-      <h1>Imágenes</h1>
-      <div className="image-container">
-        {imageData.map((image) => (
-          <div key={image.id}>
-            {/* Usar rutas relativas para cargar las imágenes */}
-            <img src={image.url} alt={image.alt} />
-          </div>
-        ))}
-      </div>
+    <div >
+      <Configuracion_Perfill/>
     </div>
   );
 }
